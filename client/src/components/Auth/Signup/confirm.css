@@ -1,0 +1,20 @@
+.coinfirmpage {
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    background-color: #edf0f3;
+}
+
+.backbtn,
+.signupbtn {
+    margin-top: 10px;
+    background-color: #0073b1;
+    border: none;
+    padding: 7px 20px;
+}
+
+.backbtn,
+.signupbtn:hover,
+.backbtn,
+.signupbtn:active {
+    background-color: #0073b1;
+}

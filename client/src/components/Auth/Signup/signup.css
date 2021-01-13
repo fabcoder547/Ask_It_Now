@@ -1,0 +1,111 @@
+
+
+.signupBody{
+    background-color: rgb(0, 140, 255);
+    height: 100vh;
+    
+}
+
+
+.signupForm {
+    background-color: #edf0f3;
+    padding: 20px 25px;
+    margin: 10px 5px;
+}
+
+.signupForm form input {
+    margin-bottom: 7px;
+    border: none;
+}
+
+.signupForm .nextbtn {
+    float: right;
+}
+
+.signupForm .nextbtn,
+.signupForm .backbtn {
+    background-color: #0073b1;
+    border: none;
+    padding: 7px 20px;
+}
+
+.signupForm .nextbtn,
+.signupForm .backbtn:hover,
+.signupForm .nextbtn,
+.signupForm .backbtn:active {
+    background-color: #0073b1;
+}
+
+.signupForm .backbtn {
+    float: left;
+}
+
+.signupForm .profilepic {
+    margin-bottom: 13px;
+}
+
+.signinForm {
+    background-color: #edf0f3;
+    padding: 20px 25px;
+    margin: 10px 5px;
+}
+
+.signinForm form input {
+    border: none;
+}
+
+.authHeader {
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 2.5%;
+}
+
+.signinheader {
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 2.5%;
+}
+
+.signinbtn {
+    background-color: #0073b1;
+    border: none;
+    padding: 5px 25px;
+    margin-bottom: 5px;
+}
+
+.signinbtn:hover,
+.signinbtn:active {
+    background-color: #0073b1;
+}
+
+.authHeader h3 {
+    color: #fff;
+    font-family: "Noto Serif", serif;
+    font-weight: 400;
+}
+
+.signinheader h3 {
+    color: #fff;
+    font-family: "Noto Serif", serif;
+    font-weight: 400;
+}
+
+@media (min-width: 768px) {
+    .authHeader h3 {
+        font-size: 50px;
+    }
+
+    .signinheader h3 {
+        font-size: 50px;
+    }
+
+    .authHeader {
+        margin-bottom: 0;
+    }
+
+    .signinheader {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,8 @@
+export {default as Home} from "./Home/Home"
+export {default as Sidebar} from "./Sidebar/Sidebar"
+export {default as Navbar} from "./Navbar/Navbar"
+export {default as Signup} from "./Auth/Signup/Signup" 
+export {default as Signin} from "./Auth/Signin/Signin" 
+export {default as Activate} from "./Auth/Signup/Activate"
+export {default as Forgetpassword} from "./Auth/Forgetpassword/ForgetPassword"
+export {default as Resetpassowrd} from "./Auth/Forgetpassword/Resetpassword"

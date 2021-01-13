@@ -1,0 +1,23 @@
+.navbar-custom {
+    background-color: #283e4a;
+    position: fixed;
+    z-index: 10;
+    padding: 0px 15px;
+
+    width: 100%;
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff;
+    font-size: 28px;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active {
+    color: #fff;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
